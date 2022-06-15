@@ -87,7 +87,108 @@ const App = () => {
         <div className="h-20 bg-red-500">8</div>
         <div className="h-20 bg-red-500">9</div>
       </div>
-      
+      ----------------------------------------------------------------------------------------------------------------
+      ----------------------------------------------------------------------------------------------------------------
+      <h1 className="font-bold">---ROW LAYOUT---</h1>
+      <div className="bg-yellow w-auto grid grid-rows-5 grid-flow-col  gap-8">
+        <div className="h-20 bg-yellow-500">1</div>
+        <div className="h-20 bg-yellow-500">2</div>
+        <div className="h-20 bg-yellow-500">3</div>
+        <div className="h-20 bg-yellow-500">4</div>
+        <div className="h-20 bg-yellow-500">5</div>
+        <div className="h-20 bg-yellow-500">6</div>
+        <div className="h-20 bg-yellow-500">7</div>
+        <div className="h-20 bg-yellow-500">8</div>
+        <div className="h-20 bg-yellow-500">9</div>
+      </div>
+      ----------------------------------------------------------------------------------------------------------------
+      ----------------------------------------------------------------------------------------------------------------
+      <h1 className="font-bold">---Margin and Padding---</h1>
+      mb ml mt mr --- margin for four sides
+      <div className="bg-blue-500 m-10 p-10">
+        <div className="bg-red-500 p-10">This is the inner</div>
+      </div>
+      ----------------------------------------------------------------------------------------------------------------
+      ----------------------------------------------------------------------------------------------------------------
+      <h1 className="font-bold">---Styling text---</h1>
+      <div className="text-sm">This is a heading</div>
+      <div className="text-xs">This is a heading</div>
+      <div className="text-base">This is a heading</div>
+      <div className="text-lg">This is a heading</div>
+      <div className="text-2xl">This is a heading</div>
+      <div className="text-4xl italic ">This is a heading</div>
+      <div className="text-base font-thinner">This is a heading</div>
+      <div className="text-base font-light">This is a heading</div>
+      <div className="text-base font-bold">This is a heading</div>
+      <div className="text-base font-extrabold">This is a heading</div>
+      <div className="text-base text-right">This is a heading</div>
+      <div className="text-base text-left">This is a heading</div>
+      <div className="text-base text-center">This is a heading</div>
+      <div className="text-base text-blue-500">This is a heading</div>
+      <div className="text-base text-[#fff]">This is a heading</div>
+      <div className="text-base text-green-700 opacity-50 ">
+        This is a heading
+      </div>
+      <div className="text-base text-green-700  capitalize">
+        This is a heading
+      </div>
+      <div className="text-base text-green-700  uppercase">
+        This is a heading
+      </div>
+      ----------------------------------------------------------------------------------------------------------------
+      ----------------------------------------------------------------------------------------------------------------
+      <h1 className="font-bold">---Border Radius---</h1>
+      <button className="bg-green-500 m-20 p-5 text-white rounded">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded-sm">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded-r-md">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded-t-lg">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded-xl">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded-2xl">
+        This is a Button
+      </button>
+      <br />
+      ----------------------------------------------------------------------------------------------------------------
+      ----------------------------------------------------------------------------------------------------------------
+      <h1 className="font-bold">---Styling Border---</h1>
+      <button className="bg-green-500 m-20 p-5 text-white rounded border-0">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded border-8">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded border-r-8 border-opacity-50 border-red-500">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded border-t-8 border-red-900">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded border-8 border-dashed border-blue-500">
+        This is a Button
+      </button>
+      <button className="bg-green-500 m-20 p-5 text-white rounded border-8 border-dotted border-blue-500">
+        This is a Button
+      </button>
+      <br />
+      ----------------------------------------------------------------------------------------------------------------
+      ----------------------------------------------------------------------------------------------------------------
+      <h1 className="font-bold">---Shadows---</h1>
+      <button className="bg-white-500 m-20 p-5 text-black shadow-2xl ">
+        This is a Button
+      </button>
+      <button className="bg-white-500 m-20 p-5 text-black shadow-inner ">
+        This is a Button
+      </button>
+      <br />
       ----------------------------------------------------------------------------------------------------------------
     </>
   );
